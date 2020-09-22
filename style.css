@@ -1,0 +1,96 @@
+* {
+    background-color: #5E627A;
+}
+
+/*Navigation Bar CSS*/
+
+.navbar .navbar-expand-lg .navbar-brand{
+    background-color: #5E627A;
+
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.nav-link {
+    color: #EB71AD;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+/*Index style*/
+
+.card .index{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    width: 30%;
+    height: 30%;
+}
+
+
+
+/*Contact style*/
+
+
+.form-group {
+    width: 50%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:#EB71AD;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ 
+/*Portfolio style*/
+
+.card-group {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    width: 50%;
+    height: 50%;
+}
+
+.card {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cornsilk;
+    
+}
+
+.card-body {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/*Footer CSS*/
+
+.footer {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+
+}
+
+.footer a {
+    color: #EB71AD;
+}
+
+.footer a:hover {
+    color: #38E097;
+
+}
+
