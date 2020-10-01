@@ -1,39 +1,59 @@
 * {
+    background-color: #31649d;
+}
+
+/*Header*/
+.jumbotron{
     background-color:#31649d;
 }
 
-.jumbotron text-center {
-    background-color:#31649d;
-}
-/*Navigation Bar CSS*/
 
+/*Nav bar*/
+
+menu#myNavbar.collapse.navbar-collapse{
+    background-color: #1c2541;
+
+}
+div.container-fluid {
+    background-color: #1c2541;
+}
 .navbar .navbar-expand-lg .navbar-brand{
-    background-color: #545c89;
+    background-color: #1c2541;
 
 }
 
-.navbar-brand {
+a {
+    background-color: #1c2541;
+   
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #EB71AD; 
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #1c2e65;
+    color: white;
+
+}
+
+
+.navbar-inverse .navbar-brand {
     color: black;
     font-weight: bolder;
     font-size: xx-large;
-    font-family: 'Dancing Script', cursive;
-
-}
-
-.nav-link {
-    color: #EB71AD;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    background-color: #1c2541;
 
 }
 
 
-.img-fluid, .max-width {
-    max-width: 100%;
-    height: auto;
- }
+body {
+    background: #31649d;
+}
 
-/*Index style*/
-
+/*index main page*/
 .card .index{
     font-family: 'Nunito', sans-serif;
     color: black;
@@ -46,11 +66,13 @@
     height: 50px;
 }
 
-.img-fluid.me {
-    border-radius: 50%;
-}
-/*Contact style*/
+.img-fluid, .max-width {
+    max-width: 100%;
+    height: auto;
+ }
 
+
+/*contact page*/
 
 .form-group {
     width: 50%;
@@ -66,37 +88,25 @@
     display: inline-block;
     font-size: 16px;
 }
- 
-/*Portfolio style*/
 
-.card-group {
-    font-family: 'Nunito', sans-serif;
-    color: black;
-    width: 50%;
-    height: 50%;
+/*portfolio page*/
+.img-fluid, .nev {
+    max-width: 50%;
+    height: auto;
+
 }
 
-.card {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: 	#31649d;
+/*footer*/
+footer.jumbotron.text-center {
+    background-color: #1c2541;
     
 }
 
-.card-body {
-    font-size: xx-large;
-    font-weight: bolder;
-}
-
-/*Footer CSS*/
-
-.footer {
-    color: black;
-    font-family: 'Nunito', sans-serif;
+p.footer{
+    color: white;
+    background-color: #1c2541;
     font-size: 12px;
-
+    font-family: 'Nunito', sans-serif;
 }
 
 .footer a {
@@ -107,4 +117,3 @@
     color: #38E097;
 
 }
-
