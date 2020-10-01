@@ -46,6 +46,9 @@
     height: 50px;
 }
 
+.img-fluid.me {
+    border-radius: 50%;
+}
 /*Contact style*/
 
 
