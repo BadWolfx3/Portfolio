@@ -96,6 +96,15 @@ body {
 
 }
 
+h2.portfolio {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+main.container.port a {
+    color: #EB71AD;
+}
+
 /*footer*/
 footer.jumbotron.text-center {
     background-color: #1c2541;
