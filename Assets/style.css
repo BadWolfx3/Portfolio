@@ -1,56 +1,74 @@
 * {
-    background-color: #31649d;
+    background-color: #b08282;
 }
 
 /*Header*/
-.jumbotron{
-    background-color:#31649d;
+ header {
+     background-color:  #cc9d9d;
+ }
+.heading {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      
 }
 
 
 /*Nav bar*/
 
 menu#myNavbar.collapse.navbar-collapse{
-    background-color: #1c2541;
+    background-color: #cc9d9d;
 
 }
 div.container-fluid {
-    background-color: #1c2541;
+    background-color: #cc9d9d; 
+    max-width: 100%;
+    align-content: center;
 }
 .navbar .navbar-expand-lg .navbar-brand{
-    background-color: #1c2541;
+    background-color: #cc9d9d;
 
 }
 
 a {
-    background-color: #1c2541;
-   
-    
+    background-color: #cc9d9d;
+     
 }
+
+.navbar-brand {
+    color: #cc9d9d;
+}
+
 .navbar-inverse .navbar-nav>li>a {
-    color: #EB71AD; 
+    color: black; 
     font-family: 'Nunito', sans-serif;
     font-size: medium;
 }
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: #1c2e65;
-    color: white;
+    background-color: #cc9d9d;
+    color: black;
 
 }
 
-
-.navbar-inverse .navbar-brand {
-    color: black;
+.navbar-inverse .navbar-brand{
+    color: white;
     font-weight: bolder;
     font-size: xx-large;
-    font-family: 'Sansita Swashed', cursive;
-    background-color: #1c2541;
-
+    font-family: 'Dancing Script', cursive;
+    background-color: #cc9d9d;
+    padding: 25px;
+    
 }
 
+.navbar-brand:hover {
+    color: #cc9d9d;
+}
 
 body {
-    background: #31649d;
+    background: #b08282;
 }
 
 /*index main page*/
@@ -71,7 +89,9 @@ body {
     height: auto;
  }
 
-
+.about {
+    text-indent: 50px;
+}
 /*contact page*/
 
 .form-group {
@@ -79,7 +99,7 @@ body {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color:#EB71AD;
+    background-color:#909fd4;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -96,33 +116,39 @@ body {
 
 }
 
+h1 {
+    color: black;
+    font-family: 'Nunito', sans-serif; 
+}
 h2.portfolio {
     color: black;
     font-family: 'Nunito', sans-serif;
 }
 
 main.container.port a {
-    color: #EB71AD;
+    color: #909fd4;
 }
 
 /*footer*/
 footer.jumbotron.text-center {
-    background-color: #1c2541;
+    background-color: #cc9d9d;
+    height: 20px;
     
 }
 
 p.footer{
-    color: white;
-    background-color: #1c2541;
-    font-size: 12px;
+    color: black;
+    background-color: #cc9d9d;
+    font-size: 15px;
     font-family: 'Nunito', sans-serif;
+    text-align: left;
 }
 
 .footer a {
-    color: #EB71AD;
+    color: white;
 }
 
 .footer a:hover {
-    color: #38E097;
+    color: black;
 
 }
